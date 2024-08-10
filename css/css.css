@@ -1,0 +1,304 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+ body{
+background-image: url(https://cdn.discordapp.com/attachments/1191030019569496084/1271740480304058401/bg.jpg?ex=66b8701e&is=66b71e9e&hm=ec902951743bc897a897f3fab7f7f463b841c739c735622cbbbe83c83af66886&) ;
+background-attachment: fixed;
+  background-size: cover ;
+  position: relative; 
+  
+  
+
+}
+h1,h2 ,h3, h4,p{
+  color: white;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+header h3{
+  color: white;
+  font-size: 45px;
+
+}
+header p {
+  color: white;
+  font-size: 25px;
+
+}
+header h4 {
+  color: white;
+  font-size: 30px;
+}
+header .time{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+header .time .Day{
+  border: 2px solid white;
+  padding: 20px;
+  width: 70px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+header .time .Hours{
+  border: 2px solid white;
+  padding: 20px;
+  width: 70px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+header .time .Mintes{
+  border: 2px solid white;
+  padding: 20px;
+  width: 70px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+header .time .seconds{
+  border: 2px solid white;
+  padding: 20px;
+  width: 70px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+.Subscribe{
+  margin-top: 40px;
+  text-align: center;
+  position: relative;
+}
+.Subscribe h3{
+  font-size: 22px;
+  color: white;
+}
+.Subscribe input{
+  border: 0;
+  padding: 15px 8px;
+  width: 300px;
+  border-radius: 40px;
+  margin-top: 5px;
+ 
+}
+.Subscribe button{
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 14px 20px;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 25px;
+  position: absolute;
+  right: 8px;
+  bottom: 0px;
+  background-color: #24b7a4;
+  color: white;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.icon i{
+    font-size: 16px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition:all .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.icon i:hover{
+    background-color: #24b7a4;
+    border: 1px solid #24b7a4;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.about h3{
+    color: white;
+    font-size: 40px;
+
+}
+.about .li{
+    margin-top: -31px;
+    width: 60px;
+    height: 2px;
+    background-color:#24b7a4;
+}
+.about p{
+    color: white;
+    margin-top: 20px;
+}
+.A-Content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.A-Content .content{
+    width: 22%;
+    text-align: center;
+}
+.A-Content .content i{
+    font-size: 50px;
+    color: white;
+}
+.A-Content .content h4{
+    color: white;
+    margin-top: 5px;
+}
+
+.contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.contant h3{
+    color: white;
+    font-size: 40px;
+
+}
+.contant .li{
+    margin-top: 5px;
+    width: 60px;
+    height: 2px;
+    background-color:#24b7a4;
+}
+
+ .CON-Contant{
+  margin-top: 25px;
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 30px;
+  border: 3px solid #24b7a4; 
+  border-left: transparent ;
+  border-right: transparent;
+}
+.CO{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.CO i{
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 5px;
+    transition: all .5s;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.CO i:hover{
+    background-color: #24b7a4;
+}
+.CO .text{
+    color: white;
+}
+ 
+  .form{
+    width: 500px;
+  }
+  iframe{
+    width: 450px;
+    height: 250px;
+  }
+
+  .C-DIV{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+ 
+ .form{
+  margin-top: 25px;
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 30px;
+  border: 3px solid #24b7a4; 
+  border-left: transparent ;
+  border-right: transparent;
+  color: #fff;
+ }
+ .form .name{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+label{
+  text-align: left;
+}
+
+.form .inputs{
+  display: flex;
+  flex-direction: column;
+}
+.label{
+  display: flex;
+}
+.in {
+  display: flex;
+  width: 100%;
+  height: 40px;
+
+} 
+.sd{
+  margin-left: 190px;
+} 
+.email{
+ margin-left: 25px ;
+width: 50%;
+}.name{
+  width: 50%;
+}
+
+.Subject{
+  width:100%;
+  height: 40px;
+  border: none;
+}
+
+.Message{
+  width: 100%;
+  height: 250px;
+  border: none;
+}
+.SUB{
+  background: #24b7a4;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  margin: 50px 0px  0px 189px;
+}
